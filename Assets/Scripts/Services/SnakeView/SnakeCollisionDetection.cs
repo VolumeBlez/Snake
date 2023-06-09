@@ -19,7 +19,6 @@ public class SnakeCollisionDetection : MonoBehaviour
         }
         else
         {
-            Debug.Log("FSD");
             _dispatcher.Dispatch(EventType.SnakeDeath);
         }
     }
